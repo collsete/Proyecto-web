@@ -1,0 +1,61 @@
+<nav class="mb-4 navbar navbar-expand-lg navbar-dark red darken-2">
+  <a class="navbar-brand font-bold" href="#">Venta de Libritos</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText1" aria-controls="navbarText1" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText1">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" [routerLink]="['Inicio']">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" [routerLink]="['Categorias']">Categorias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" [routerLink]="['Contacto']">¡Contactanos!</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" [routerLink]="['Busqueda']">Buscar libros</a>
+        </li>
+          <li class="nav-item">
+              <button type="button" class="btn btn-default btn-sm" [routerLink]="['Carrito']">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <span  class="glyphicon glyphicon-shopping-cart"></span> Carrito de compras
+            </button>
+          </li>
+      </ul>
+
+  </div>
+</nav>
+<!------fin nav bar---------->
+<body class="col-lg-12">
+ <router-outlet base href="/"></router-outlet>
+</body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<!--footer -->
+<footer class="col-lg-12"> 
+  <section id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+          <p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
+          <p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p>
+        </div>
+        <hr>
+      </div>	
+    </div>
+  </section>
+</footer>
+  <!-- ./Footer -->

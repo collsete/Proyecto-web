@@ -1,0 +1,11 @@
+Hola profesora, 
+
+aqui esta el proyecto con su respectivo back end y front end
+La base de datos esta adjuntada fuera de toda carpeta, usamos xammp para montarla
+la pagina web es completamente funcional y queria decirle que dejamos varias
+cosas de prueba para que pudiese apreciar nuestro esfuerzo y trabajo que le pusimos a la pagina 
+y tambien como prueba de que no copiamos
+la base de datos consiste de 33 libros, si quiere agregar un libro en el archivo sql se especifica como esta hecha la tabla
+sin más aqui esta el trabajo solo basta con hacer un ng serve o un npm start con todos los servicios activos y la 
+base de datos funcionando
+
